@@ -71,6 +71,7 @@ set wildmenu
 
 " Turn on the line number
 set number
+nmap <leader>s :set nonu<cr>
 
 " Ignore compiled files
 set wildignore=*.o,*~,*.pyc
