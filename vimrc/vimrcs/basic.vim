@@ -47,6 +47,7 @@ let mapleader = ","
 
 " Fast saving
 nmap <leader>w :w!<cr>
+nmap <leader>q :q!<cr>
 
 " :W sudo saves the file
 " (useful for handling the permission-denied error)
@@ -189,9 +190,9 @@ set smarttab
 set shiftwidth=4
 set tabstop=4
 
-" Linebreak on 500 characters
+" Linebreak on 800 characters
 set lbr
-set tw=500
+set tw=800
 
 set ai "Auto indent
 set si "Smart indent
@@ -326,7 +327,7 @@ map <leader>s? z=
 noremap <Leader>m mmHmt:%s/<C-V><cr>//ge<cr>'tzt'm
 
 " Quickly open a buffer for scribble
-map <leader>q :e ~/buffer<cr>
+"map <leader>q :e ~/buffer<cr>
 
 " Quickly open a markdown buffer for scribble
 map <leader>x :e ~/buffer.md<cr>
