@@ -31,7 +31,7 @@
 " => General
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Sets how many lines of history VIM has to remember
-set history=500
+set history=800
 
 " Enable filetype plugins
 filetype plugin on
@@ -67,6 +67,9 @@ source $VIMRUNTIME/menu.vim
 
 " Turn on the Wild menu
 set wildmenu
+
+" Turn on the line number
+set number
 
 " Ignore compiled files
 set wildignore=*.o,*~,*.pyc
